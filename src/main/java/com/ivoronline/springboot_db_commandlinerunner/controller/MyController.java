@@ -8,16 +8,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class MyController {
 
-  //====================================================================================
-  // GET LIST
-  //====================================================================================
+  //=========================================================================================================
+  // HELLO
+  //=========================================================================================================
   @ResponseBody
-  @RequestMapping("GetList")
-  String getList() throws JsonProcessingException {
-
-    //RETURN SOMETHING TO BROWSER
+  @RequestMapping("Hello")
+  String hello() throws JsonProcessingException {
     return "OK";
-
   }
 
 }

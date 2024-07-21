@@ -16,7 +16,6 @@ public class InsertRecords implements CommandLineRunner {
   //=========================================================================================================
   // INSERT RECORDS
   //=========================================================================================================
-
   @Override
   @Transactional
   public void run(String... args) {
